@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clipToPadding="false"
+    android:paddingBottom="5dp"
+    android:background="#C16C86"
+    android:elevation="3dp"
+    >
+    <LinearLayout
+        android:id="@+id/llBackground"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="5dp"
+        android:background="#C16C86"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/itemNoteName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#fff"
+            android:fontFamily="casual"
+            android:textSize="28dp"
+            android:gravity="center"
+            android:text="Hey there"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
